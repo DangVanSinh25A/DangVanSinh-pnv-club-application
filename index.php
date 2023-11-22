@@ -54,6 +54,7 @@
             background-color: #ffc107;
             color: white;
             width: 100%;
+            border: 2px solid yellow;
         }
     </style>
 
@@ -67,8 +68,8 @@
             <div class="club">
                 <label for="club" class="form-label">Club you want to apply</label>
                 <select name="club" id="club" class="form-control">
-                    <option value="Robotic Club">Robotic Club</option>
                     <option value="Art Club" selected>Art Club</option>
+                    <option value="Robotic Club">Robotic Club</option>
                     <option value="Music Club">Music Club</option>
                     <option value="Sports Club">Sports Club</option>
                 </select>
